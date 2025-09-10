@@ -11,7 +11,7 @@ body {
     font-size: 90%;
     margin: 0;
     padding: 2em;
-    background: linear-gradient(135deg, #ffe6e6, #ffd6d6);
+    background: linear-gradient(135deg, #e0f7f1, #b2f7d6); /* xanh ngọc nhạt */
     color: #333;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ form, .result-box {
 /* Tiêu đề */
 h1 {
     font-size: 1.8em;
-    color: #e53935;  
+    color: #00796b;  /* xanh teal đậm */
     margin-bottom: 0.7em;
     text-align: center;
     letter-spacing: 1px;
@@ -41,9 +41,9 @@ h1 {
 }
 h2 {
     font-size: 1.2em;
-    color: #c62828;
+    color: #00695c; /* xanh lá sẫm */
     margin: 1.2em 0 0.6em 0;
-    border-left: 4px solid #c62828;
+    border-left: 4px solid #00695c;
     padding-left: 10px;
 }
 
@@ -68,9 +68,9 @@ select {
 input[type="text"]:focus,
 input[type="email"]:focus,
 select:focus {
-    border-color: #e53935;
+    border-color: #26a69a; /* xanh ngọc */
     outline: none;
-    box-shadow: 0 0 8px rgba(229,57,53,0.4);
+    box-shadow: 0 0 8px rgba(38,166,154,0.4);
 }
 
 /* Radio + Checkbox */
@@ -80,13 +80,13 @@ select:focus {
 }
 input[type="radio"], 
 input[type="checkbox"] {
-    accent-color: #e53935;
+    accent-color: #26a69a;
     margin-right: 6px;
 }
 
 /* Button */
 input[type="submit"] {
-    background: linear-gradient(135deg, #e53935, #ff1744);
+    background: linear-gradient(135deg, #26a69a, #2bb673); /* xanh ngọc -> xanh lá */
     color: #fff;
     font-weight: bold;
     font-size: 1em;
@@ -106,7 +106,7 @@ input[type="submit"]:hover {
 /* Kết quả survey.jsp */
 .result-box label {
     font-weight: bold;
-    color: #c62828;
+    color: #00695c;
     margin-bottom: 0.4em;
 }
 .result-box span {
